@@ -72,7 +72,7 @@ def main():
     st.write("En base a los datos del Censo de Población y Vivienda del año 2017 (INEI), se han identificado patrones de desplazamiento de la población económicamente activa ocupada (PEAO) entre las cuatro macrozonas del Perú y los 25 departamentos del país.")
 
     # Ruta al archivo CSV
-    file_path = "C:/Users/ANALISIS SIG/2_Aplicaciones_streamlit/Dataset/Destino_trabajo_cpv17.csv"
+    file_path = "Dataset/Destino_trabajo_cpv17.csv"
 
     # Cargar los datos desde el archivo
     data = pd.read_csv(file_path, sep=";")
